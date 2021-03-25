@@ -14,7 +14,7 @@ const main = async() => {
         console.log(`target mail is ${target_mail}`)
         const users = await user.getUserIdsByMailAddress([target_mail]);
         for (const user of users){
-            console.log(await file.deleteFiles({"user": user,count: 1000}),unix_time);
+            await file.deleteFiles({"user": user,count: 1000},unix_time);
         }
     }
 
@@ -24,7 +24,7 @@ const main = async() => {
         const channels = await channel.channelIds([target_channel]);
         console.log(channels)
         for (const c of channels){
-            console.log(await file.deleteFiles({"channel": c,count: 1000}),unix_time);
+            await file.deleteFiles({"channel": c,count: 1000},unix_time);
         }
     }
 

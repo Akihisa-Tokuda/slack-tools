@@ -7,7 +7,6 @@ const list = async(filter) => {
 
 const deleteFiles = async(filter,limit) => {
     const files = await list(filter);
-
     for (const file of files) {
         if(file.created > limit){continue};
         console.debug(file);
