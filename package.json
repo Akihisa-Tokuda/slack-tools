@@ -6,19 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Akihisa-Tokuda/slack-tools.git"
-  },
+
   "keywords": [
     "slack"
   ],
   "author": "tokuda",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Akihisa-Tokuda/slack-tools/issues"
-  },
-  "homepage": "https://github.com/Akihisa-Tokuda/slack-tools#readme",
+
   "dependencies": {
     "@slack/web-api": "latest"
   }
