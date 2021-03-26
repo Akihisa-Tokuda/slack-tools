@@ -6,7 +6,7 @@ const channel = require('./channel');
 const main = async() => {
 
     const days_before = process.env.SLACK_FILE_DEL_TARGET_DATE;
-    const unix_time =  Math.floor(Date.parse(`${days_before} 00:09:00 GMT`)/1000);
+    const unix_time =  Math.floor(minusDateUnixMills(days_before)/1000);
 
     const target_mail = process.env.SLACK_FILE_DEL_TARGET_MAIL;
     if(target_mail){
@@ -27,6 +27,13 @@ const main = async() => {
         }
     }
 
+}
+
+const minusDateUnixMills = (minus) => {
+    let date = new Date();
+    date.setDate(date.getDate() - minus);
+    console.log(date)
+    return Math.floor(date)
 }
 
 main()
