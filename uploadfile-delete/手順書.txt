@@ -1,7 +1,7 @@
-1. slack app‚ÌŒ ŒÀ‚Ìİ’è
+1. slack appã®æ¨©é™ã®è¨­å®š
 https://api.slack.com/apps
 
-User Token Scopes‚ÅˆÈ‰º‚ğ’Ç‰Á‚·‚éB
+User Token Scopesã§ä»¥ä¸‹ã‚’è¿½åŠ ã™ã‚‹ã€‚
 
 admin
 channels:read
@@ -10,20 +10,20 @@ files:write
 users:read
 users:read.email
 
-Work Space‚ÉƒAƒvƒŠ‚ğÄƒCƒ“ƒXƒg[ƒ‹‚·‚é
+Work Spaceã«ã‚¢ãƒ—ãƒªã‚’å†ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã™ã‚‹
 
-2. ‰æ–Êã‚ÅOAuth tokenixoxpn‚Ü‚è‚Ì•¶š—ñj‚ğchannel.bat‚Æuser_mail.bat‚É‹LÚB‚»‚ê‚¼‚êA‚Qs–Ú
+2. ç”»é¢ä¸Šã§OAuth tokenï¼ˆxoxpå§‹ã¾ã‚Šã®æ–‡å­—åˆ—ï¼‰ã‚’cmd.batã«è¨˜è¼‰ã€‚
 
-3. node js‚ÌƒCƒ“ƒXƒg[ƒ‹
-‚±‚¿‚ç‚ğQl‚ÉƒCƒ“ƒXƒg[ƒ‹‚µ‚Ä‚­‚¾‚³‚¢B
+3. node jsã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+ã“ã¡ã‚‰ã‚’å‚è€ƒã«ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã—ã¦ãã ã•ã„ã€‚
 https://qiita.com/echolimitless/items/83f8658cf855de04b9ce
 
-4. channel.bat‚Æuser_mail.bat‚ğÀs‚¢‚½‚¾‚¯‚ê‚ÎA‚²w’è‚Ì’Ê‚èslackã‚Åƒtƒ@ƒCƒ‹‚ğíœ‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B
+4. channel.batã¨user_mail.batã‚’å®Ÿè¡Œã„ãŸã ã‘ã‚Œã°ã€ã”æŒ‡å®šã®é€šã‚Šslackä¸Šã§ãƒ•ã‚¡ã‚¤ãƒ«ã‚’å‰Šé™¤ã™ã‚‹ã“ã¨ãŒã§ãã¾ã™ã€‚
 
-cmd.bat‚ÌSLACK_UPLOAD_FILE_TYPE‚Å‘ÎÛ‚Ìƒtƒ@ƒCƒ‹í—Ş‚ğw’è‚Å‚«‚Ü‚·B
-¦ƒJƒ“ƒ}‹æØ‚è‚Å•¡”í—Şíœ‚Å‚«‚Ü‚·B
+cmd.batã®SLACK_UPLOAD_FILE_TYPEã§å¯¾è±¡ã®ãƒ•ã‚¡ã‚¤ãƒ«ç¨®é¡ã‚’æŒ‡å®šã§ãã¾ã™ã€‚
+â€»ã‚«ãƒ³ãƒåŒºåˆ‡ã‚Šã§è¤‡æ•°ç¨®é¡å‰Šé™¤ã§ãã¾ã™ã€‚
 
-[w’è‚Å‚«‚éí—Ş]
+[æŒ‡å®šã§ãã‚‹ç¨®é¡]
 all - All files
 spaces - Posts
 snippets - Snippets
@@ -32,7 +32,7 @@ gdocs - Google docs
 zips - Zip files
 pdfs - PDF files
 
-[ˆø”‚Å‚ÌÀs]
-ƒRƒ}ƒ“ƒhƒvƒƒ“ƒvƒg‚©‚ç
+[å¼•æ•°ã§ã®å®Ÿè¡Œ]
+ã‚³ãƒãƒ³ãƒ‰ãƒ—ãƒ­ãƒ³ãƒ—ãƒˆã‹ã‚‰
 channel.bat general 2
-‚Ì‚æ‚¤‚ÉÀs‰Â”\‚Å‚·B
+ã®ã‚ˆã†ã«å®Ÿè¡Œå¯èƒ½ã§ã™ã€‚
