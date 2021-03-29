@@ -7,13 +7,14 @@ const main = async() => {
 
     const days_before = process.env.SLACK_FILE_DEL_TARGET_DATE;
     const unix_time =  Math.floor(minusDateUnixMills(days_before)/1000);
+    const fileType = process.env.SLACK_UPLOAD_FILE_TYPE;
 
     const target_mail = process.env.SLACK_FILE_DEL_TARGET_MAIL;
     if(target_mail){
         console.log(`target is ${target_mail}`)
         const users = await user.getUserIdsByMailAddress([target_mail]);
         for (const user of users){
-            await file.deleteFiles({"user": user,count: 1000},unix_time);
+            await file.deleteFiles({"user": user,count: 1000, types: fileType},unix_time);
         }
     }
 
@@ -23,7 +24,7 @@ const main = async() => {
         const channels = await channel.channelIds([target_channel]);
         console.log(channels)
         for (const c of channels){
-            await file.deleteFiles({"channel": c,count: 1000},unix_time);
+            await file.deleteFiles({"channel": c,count: 1000,types: fileType},unix_time);
         }
     }
 
